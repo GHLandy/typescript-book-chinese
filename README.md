@@ -69,7 +69,7 @@ Thanks goes to these wonderful people
 
 ### 公众号
 
-<img src="./docs/.vuepress/public/qrcode.jpg" width="200" />
+<img src="./docs/public/qrcode.jpg" width="200" />
 
 ## 最后
 

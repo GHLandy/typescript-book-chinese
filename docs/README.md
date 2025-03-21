@@ -8,7 +8,7 @@
 
 ## Why
 
-<img :src="$withBase('/typescript-downloads.jpg')" alt="ide"/>
+<img src="/typescript-downloads.jpg" alt="ide"/>
 
 > 数据来源：[npm 包下载量](https://npm-stat.com/charts.html?package=typescript&from=2016-01-01&to=2018-07-31)
 
@@ -48,4 +48,4 @@
 
 公众号：
 
-<img :src="$withBase('/qrcode.jpg')" width="200" alt="支付宝">
+<img src="/qrcode.jpg" width="200" alt="支付宝">

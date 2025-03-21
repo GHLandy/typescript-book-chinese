@@ -13,13 +13,13 @@ type SomethingComplex = {
 function takeSomethingComplex(arg: SomethingComplex) {}
 
 function getBar(): string {
-  return 'some bar';
+  return "some bar";
 }
 
 // 一个可能会出现的错误使用
 const fail = {
   foo: 123,
-  bar: getBar
+  bar: getBar,
 };
 
 takeSomethingComplex(fail); // 在这里 TypeScript 会报错
@@ -75,7 +75,7 @@ CAUSE ERROR: Type '() => string' is not assignable to type 'string'.
 
 IDE 通常会在详细的错误提示之后显示简洁版本，如下所示：
 
-<img :src="$withBase('/ide.png')" alt="ide"/>
+<img src="/ide.png" alt="ide"/>
 
 - 你通常可能只会阅读「为什么」的详细信息；
 - 当你想寻找相同的错误时（使用 `TSXXX` 错误编号，或者部分错误信息），使用简洁的版本。

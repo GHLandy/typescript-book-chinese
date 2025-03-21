@@ -16,3 +16,5 @@ yarn-error.log*
 
 # Others
 .history
+**/**/.vitepress/cache
+**/**/.vitepress/dist
